@@ -19,4 +19,5 @@
   <ul>https://wordpress.org/about/license/</ul>
   
 <h2>DOCUMENT LICENSE</h2>
-  Attribution 4.0 International
+  <p>Attribution 4.0 International : This is a human-readable summary of (and not a substitute for) the license.</p>
+  <ul> https://creativecommons.org/licenses/by/4.0/</ul>
