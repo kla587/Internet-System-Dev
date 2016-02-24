@@ -9,10 +9,10 @@
   Maven 3.0.5    https://maven.apache.org/docs/3.0.5/release-notes.html
   
 <h2>COPYWRITE</h2>
-  Donatien Adjadohoun
-  Aayush Khadka
-  Faisal Al Rashdi
-  Mikayla Newton
+  <ul>Donatien Adjadohoun</ul>
+  <ul>Aayush Khadka</ul>
+  <ul>Faisal Al Rashdi</ul>
+  <ul>Mikayla Newton</ul>
   
 <h2>SOURCE LICENSE</h2>
   GPLV2
