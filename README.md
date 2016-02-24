@@ -11,7 +11,7 @@
 <h2>COPYWRITE</h2>
   Donatien Adjadohoun
   Aayush Khadka
-  Nikhit Adusumilli
+  Faisal Al Rashdi
   Mikayla Newton
   
 <h2>SOURCE LICENSE</h2>
