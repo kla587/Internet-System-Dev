@@ -7,10 +7,10 @@
  <ul> Ubuntu 14.04       http://www.ubuntu.com/download/desktop </ul>
  
  <h2>SYSTEM DEPENDENCIES</h2>
- <ul> DoSOCSV2</u1>         
- <u1> Install Instructions: https://github.com/DoSOCSv2/DoSOCSv2</u1>
- <ul> Maven 3.0.5</u1>        
- <u1> Install Instructions: https://maven.apache.org/docs/3.0.5/release-notes.html</u1>
+ <ul> DoSOCSV2</ul>         
+ <ul> Install Instructions: https://github.com/DoSOCSv2/DoSOCSv2</ul>
+ <ul> Maven 3.0.5</ul>        
+ <ul> Install Instructions: https://maven.apache.org/docs/3.0.5/release-notes.html</ul>
   
 <h2>COPYRIGHT</h2>
   <ul>Donatien Adjadohoun</ul>
