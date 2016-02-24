@@ -5,10 +5,12 @@
   
 <h2>SYSTEM ENVIRONMENT</h2>
  <ul> Ubuntu 14.04       http://www.ubuntu.com/download/desktop </ul>
+ 
+ <h2>SYSTEM DEPENDENCIES</h2>
  <ul> DoSOCSV2           https://github.com/DoSOCSv2/DoSOCSv2</ul>
  <ul>Maven 3.0.5         https://maven.apache.org/docs/3.0.5/release-notes.html</ul>
   
-<h2>COPYWRITE</h2>
+<h2>COPYRIGHT</h2>
   <ul>Donatien Adjadohoun</ul>
   <ul>Aayush Khadka</ul>
   <ul>Faisal Al Rashdi</ul>
