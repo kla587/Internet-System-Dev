@@ -15,7 +15,9 @@
   <ul>Mikayla Newton</ul>
   
 <h2>SOURCE LICENSE</h2>
-  GPLV2
+  <ul>GPLV2 :</ul> 
+  <p>The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the      license is included with every copy of WordPress</p>
+      <ul>https://wordpress.org/about/license/</ul>
   
 <h2>DOCUMENT LICENSE</h2>
   Attribution 4.0 International
