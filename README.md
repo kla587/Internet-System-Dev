@@ -1,7 +1,7 @@
 <h1>README: Welcome to our project!</h1>
 
 <h2>SYSTEM DESCRIPTION</h2> 
-  <p>Our system will use the foundations from DoSOCS to scan not only for license information but for dependencies within open source files.   The system will store the scanned licensing information in the SPDX database. It will check the database before scanning to              determine if the files have already been scanned by using SHA256 cashing.</p>  
+  <p>Our system will use the foundations from DoSOCS to scan not only for license information but for dependencies within open source files.   The system will store the scanned licensing information in the SPDX database. It will check the database before scanning to              determine if the files have already been scanned by using SHA256 caching.</p>  
   
 <h2>SYSTEM ENVIRONMENT</h2>
  <ul> Ubuntu 14.04       http://www.ubuntu.com/download/desktop </ul>
