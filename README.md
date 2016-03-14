@@ -4,20 +4,22 @@
   <p>Our system will use the foundations from DoSOCS to accept pom files and scan for license information. Our plug inthen sends the jar files found in the pom file to Maven Central to find all dependencies within open source files. The plugin will store the scanned licensing information into a temp folder. It will check the SPDX database before scanning to determine if the files have already been scanned by using SHA256 caching. The dependancies returned fromMaven Centarl are stored in a seperate database relfecting their relationships</p>  
   
 <h3>SYSTEM ENVIRONMENT</h3>
- <h6>Ubuntu 14.04</h6>       <p>http://www.ubuntu.com/download/desktop </p>
- <h6>Python 2.7.6</h6>       <p>https://www.python.org/download/releases/2.7.6/</p>
+ <h6>Ubuntu 14.04</h6>       
+    <ul><p>http://www.ubuntu.com/download/desktop </p></ul>
+ <h6>Python 2.7.6</h6>
+    <ul><p>https://www.python.org/download/releases/2.7.6/</p></ul>
  
  <h3>SYSTEM DEPENDENCIES</h3>
  <h6>DoSOCSV2:</h6>
- <p>Install Instructions:  Follow the instruction to install the DoSOCSV2 in this website     https://github.com/DoSOCSv2/DoSOCSv2</p>
+   <ul><p>Install Instructions:  Follow the instruction to install the DoSOCSV2 in this website     https://github.com/DoSOCSv2/DoSOCSv2</p></ul>
  <h6>Maven 3.0.5:</h6>
- <p>Install Instructions: https://maven.apache.org/docs/3.0.5/release-notes.html</p>
+   <ul><p>Install Instructions: https://maven.apache.org/docs/3.0.5/release-notes.html</p></ul>
   
 <h3>COPYRIGHT</h3>
- <ul><h6>Donatien Adjadohoun</h6></ul>
-  <h6>Aayush Khadka</h6>
-  <h6>Faisal Al Rashdi</h6>
-  <h6>Mikayla Newton</h6>
+  <ul><h6>Donatien Adjadohoun</h6></ul>
+  <ul><h6>Aayush Khadka</h6></ul>
+  <ul><h6>Faisal Al Rashdi</h6></ul>
+  <ul><h6>Mikayla Newton</h6></ul>
   
 <h3>SOURCE LICENSE</h3>
    <h6>GPLv2:</h6> <p>The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software           Foundation. A copy of the license is included with every copy of WordPress</p>
