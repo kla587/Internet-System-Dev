@@ -14,17 +14,17 @@
  <p>Install Instructions: https://maven.apache.org/docs/3.0.5/release-notes.html</p>
   
 <h3>COPYRIGHT</h3>
-  <ul>Donatien Adjadohoun</ul>
-  <ul>Aayush Khadka</ul>
-  <ul>Faisal Al Rashdi</ul>
-  <ul>Mikayla Newton</ul>
+  <h6>Donatien Adjadohoun</h6>
+  <h6>Aayush Khadka</h6>
+  <h6>Faisal Al Rashdi</h6>
+  <h6>Mikayla Newton</h6>
   
 <h3>SOURCE LICENSE</h3>
-   <p>GPLv2 : The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A                  copy of the license is included with every copy of WordPress</p>
+   <h6>GPLv2:</h6> <p>The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software           Foundation. A copy of the license is included with every copy of WordPress</p>
   <ul>https://wordpress.org/about/license/</ul>
   
 <h3>DOCUMENT LICENSE</h3>
-  <p>Attribution 4.0 International : This is a human-readable summary of (and not a substitute for) the license.</p>
+  <h6>Attribution 4.0 International:</h6> <p>This is a human-readable summary of (and not a substitute for) the license.</p>
   <ul> https://creativecommons.org/licenses/by/4.0/</ul>
   
 <h3>COMMUNICATION PLAN</h3>
