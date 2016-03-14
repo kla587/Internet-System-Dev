@@ -8,8 +8,8 @@
  <p> Python 2.7.6       https://www.python.org/download/releases/2.7.6/</p>
  
  <h3>SYSTEM DEPENDENCIES</h3>
- <p>DoSOCSV2 
-    Install Instructions:  Follow the instruction to install the DoSOCSV2 in this website https://github.com/DoSOCSv2/DoSOCSv2</p>
+ <h4>DoSOCSV2</h4> 
+    <p>Install Instructions:  Follow the instruction to install the DoSOCSV2 in this website https://github.com/DoSOCSv2/DoSOCSv2</p>
  <p> Maven 3.0.5</p>        
     Install Instructions: https://maven.apache.org/docs/3.0.5/release-notes.html</p>
   
