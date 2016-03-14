@@ -5,7 +5,7 @@
   
 <h3>SYSTEM ENVIRONMENT</h3>
  <p> Ubuntu 14.04       http://www.ubuntu.com/download/desktop </p>
- <p> Python </p>
+ <p> Python 2.7.6       https://www.python.org/download/releases/2.7.6/</p>
  
  <h3>SYSTEM DEPENDENCIES</h3>
  <ul> DoSOCSV2</ul>         
