@@ -14,7 +14,7 @@
  <p>Install Instructions: https://maven.apache.org/docs/3.0.5/release-notes.html</p>
   
 <h3>COPYRIGHT</h3>
-  <h6>Donatien Adjadohoun</h6>
+ <ul><h6>Donatien Adjadohoun</h6></ul>
   <h6>Aayush Khadka</h6>
   <h6>Faisal Al Rashdi</h6>
   <h6>Mikayla Newton</h6>
