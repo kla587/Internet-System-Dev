@@ -1,4 +1,4 @@
-<h2>README: Welcome to our project!</h2>
+<h2>README: Welcome to our GITHUB!</h2>
 
 <h3>SYSTEM DESCRIPTION</h3> 
   <p>Our system will use the foundations from DoSOCS to accept pom files and scan for license information. Our plug inthen sends the jar files found in the pom file to Maven Central to find all dependencies within open source files. The plugin will store the scanned licensing information into a temp folder. It will check the SPDX database before scanning to determine if the files have already been scanned by using SHA256 caching. The dependancies returned fromMaven Centarl are stored in a seperate database relfecting their relationships</p>  
@@ -26,3 +26,7 @@
 <h3>DOCUMENT LICENSE</h3>
   <p>Attribution 4.0 International : This is a human-readable summary of (and not a substitute for) the license.</p>
   <ul> https://creativecommons.org/licenses/by/4.0/</ul>
+  
+<h3>COMMUNICATION PLAN</h3>
+
+  <p>As a group we plan to use guthub as our main point of communication. We create issues to log the parts that we are wprking on and   allow us all to see what eachother is working on and to ask question pertaining to our plugin code and repository.</p>
