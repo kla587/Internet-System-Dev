@@ -32,3 +32,5 @@
 <h3>COMMUNICATION PLAN</h3>
 
   <p>As a group we plan to use guthub as our main point of communication. We create issues to log the parts that we are wprking on and   allow us all to see what eachother is working on and to ask question pertaining to our plugin code and repository.</p>
+
+<h3>Data Flow Diagram<h3>
