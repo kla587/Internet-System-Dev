@@ -1,7 +1,7 @@
 <h2>README: Welcome to our project!</h2>
 
 <h3>SYSTEM DESCRIPTION</h3> 
-  <p>Our system will use the foundations from DoSOCS to scan not only for license information but for dependencies within open source files.   The system will store the scanned licensing information in the SPDX database. It will check the database before scanning to              determine if the files have already been scanned by using SHA256 caching.</p>  
+  <p>Our system will use the foundations from DoSOCS to accept pom files and scan for license information. Our plug inthen sends the jar files found in the pom file to Maven Central to find all dependencies within open source files. The plugin will store the scanned licensing information into a temp folder. It will check the SPDX database before scanning to determine if the files have already been scanned by using SHA256 caching. The dependancies returned fromMaven Centarl are stored in a seperate database relfecting their relationships</p>  
   
 <h3>SYSTEM ENVIRONMENT</h3>
  <p> Ubuntu 14.04       http://www.ubuntu.com/download/desktop </p>
