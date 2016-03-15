@@ -1,7 +1,9 @@
 <h2>README: Welcome to our GITHUB!</h2>
 
 <h3>SYSTEM DESCRIPTION</h3> 
-  <p>Our system will use the foundations from DoSOCS to accept pom files and scan for license information. Our plug inthen sends the jar files found in the pom file to Maven Central to find all dependencies within open source files. The plugin will store the scanned licensing information into a temp folder. It will check the SPDX database before scanning to determine if the files have already been scanned by using SHA256 caching. The dependancies returned fromMaven Centarl are stored in a seperate database relfecting their relationships</p>  
+  <p>Our plugin receives POM files from the user and sends them to Maven Central to check for dependencies. The returned POM and .jar files are sent to DoSOCS to be scanned for license information and returns SPDX documents. This process repeats until all dependencies are found or until we reach 3 levels in.</p>
+
+<p>The plugin will store the scanned licensing and  information into a temp folder. It will check the SPDX database before scanning to determine if the files have already been scanned by using SHA256 caching. The dependencies returned from Maven Central are stored in a separate database reflecting their relationships</p>  
   
 <h3>SYSTEM ENVIRONMENT</h3>
  <h6>Ubuntu 14.04</h6>
