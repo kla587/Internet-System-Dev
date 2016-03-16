@@ -76,36 +76,36 @@
 
 <table border="1" style="width:100%">
   <tr>
-    <td width="30%">Use Case Name:</td>
-    <td width="70%">License Request</td> 
+    <td width="20%">Use Case Name:</td>
+    <td width="80%">License Request</td> 
   </tr>
   <tr>
-    <td width="30%">Primary Actor:</td>
-    <td width="70%">Plugin</td> 
+    <td width="20%">Primary Actor:</td>
+    <td width="80%">Plugin</td> 
   </tr>
   <tr>
-    <td width="30%">Stakeholders:</td>
-    <td width="70%">User, Plugin, DoSOCS, Temp File</td> 
+    <td width="20%">Stakeholders:</td>
+    <td width="80%">User, Plugin, DoSOCS, Temp File</td> 
   </tr>
   <tr>
-    <td width="30%">Precondition</td>
-    <td width="70%">Dependency information stored in temp file</td> 
+    <td width="20%">Precondition</td>
+    <td width="80%">Dependency information stored in temp file</td> 
   </tr>
   <tr>
-    <td width="30%">Minimal Guarantees:</td>
-    <td width="70%">Request for license scan sent to DoSOCS</td> 
+    <td width="20%">Minimal Guarantees:</td>
+    <td width="80%">Request for license scan sent to DoSOCS</td> 
   </tr>
   <tr>
-    <td width="30%">Success Guarantees:</td>
-    <td width="70%">DoSOCS will scan jar files for license information stored in SPDX Database.</td> 
+    <td width="20%">Success Guarantees:</td>
+    <td width="80%">DoSOCS will scan jar files for license information stored in SPDX Database.</td> 
   </tr>
   <tr>
-    <td width="30%">Trigger:</td>
-    <td width="70%">Request for license scan sent to DoSOCS from plugin</td> 
+    <td width="20%">Trigger:</td>
+    <td width="80%">Request for license scan sent to DoSOCS from plugin</td> 
   </tr>
   <tr>
-    <td width="30%">Main Success Scenario:</td>
-    <td width="70%">DoSOCS will check to see if jar files have been scanned and only scan those that have not been. License information stored in SPDX Database. DoSOCS sends the scanned information back to the plug in for dependency tree report</td> 
+    <td width="20%">Main Success Scenario:</td>
+    <td width="80%">DoSOCS will check to see if jar files have been scanned and only scan those that have not been. License information stored in SPDX Database. DoSOCS sends the scanned information back to the plug in for dependency tree report</td> 
   </tr>
 </table>
 
