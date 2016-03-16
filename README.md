@@ -37,3 +37,5 @@
 
 <h3>Data Flow Diagram<h3>
 <img src = "https://cloud.githubusercontent.com/assets/16999040/13761170/fd55f59a-ea04-11e5-92ab-1fc63b1249c4.jpg"></img>
+<h3> SPDX Scheme </3>
+<img src = "https://cloud.githubusercontent.com/assets/16908431/13798237/3d7990c2-eae2-11e5-8b4a-361832e60f8e.PNG"></img>
