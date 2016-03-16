@@ -36,7 +36,7 @@
   <p>As a group we plan to use guthub as our main point of communication. We create issues to log the parts that we are wprking on and   allow us all to see what eachother is working on and to ask question pertaining to our plugin code and repository.</p>
 
 <h3>Data Flow Diagram<h3>
-<img src = "https://cloud.githubusercontent.com/assets/16999040/13802468/413ed47e-eb0a-11e5-9b46-60d9177057b9.png"></img>
+<img src = "https://cloud.githubusercontent.com/assets/16999040/13827518/e8709da6-eb8a-11e5-9101-9771e458876d.png"></img>
 
 <h3>Use Cases</h3>
 <table border="1" style="width:100%">
