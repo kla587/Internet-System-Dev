@@ -5,7 +5,7 @@
 
 <p>The plugin will store the scanned licensing and  information into a temp folder. It will check the SPDX database before scanning to determine if the files have already been scanned by using SHA256 caching. The dependencies returned from Maven Central are stored in a separate database reflecting their relationships</p> 
 
-<h6>Point and Click Process:</h6>
+<h5>Point and Click Process:</h5>
 <p>Our system currently works in pieces to achieve our goal of scanning POM files and storing them and license information into a database that can be queried. </p>
 
 <p>We begin by using the code from our shell script, plug.sh, to send a POM file to maven central. Once POM file has been parsed by Maven, it stores a dependency tree in its local default repository.  Maven then outputs a dependency tree into a text file. We are in the process of moving the jar files from the local Maven repo to a temporary folder. We are exploring two different avenues to parse the local repo for the jar files. The first uses a regex to match jar files and save them into a new temp folder. The other uses a Maven plugin, called Assembly. We will then have DoSOCS scan the temp folder; currently it is scanning the local Maven repo. We are working to create a project table in the DoSOCS database to house the dependency tree.</p>
