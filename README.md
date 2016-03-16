@@ -15,7 +15,7 @@
 <p>Also referring to https://docs.python.org/2/tutorial/inputoutput.html for how to read and write in python.</p>
 
   
-<h3>SYSTEM ENVIRONMENT</h3>
+<h6>SYSTEM ENVIRONMENT</h6>
  <h6>Ubuntu 14.04</h6>
   <ul><p>http://www.ubuntu.com/download/desktop </p></ul>
  <h6>Python 2.7.6</h6>
@@ -48,5 +48,5 @@
 <h3>Data Flow Diagram<h3>
 <img src = "https://cloud.githubusercontent.com/assets/16999040/13827518/e8709da6-eb8a-11e5-9101-9771e458876d.png"></img>
 
-<h3> SPDX Schema </3>
+<h3> SPDX Schema </h3>
 <img src = "https://cloud.githubusercontent.com/assets/16908431/13798237/3d7990c2-eae2-11e5-8b4a-361832e60f8e.PNG"></img>
