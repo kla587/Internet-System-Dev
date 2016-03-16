@@ -34,29 +34,45 @@
 <h3>COMMUNICATION PLAN</h3>
 
   <p>As a group we plan to use guthub as our main point of communication. We create issues to log the parts that we are wprking on and   allow us all to see what eachother is working on and to ask question pertaining to our plugin code and repository.</p>
-  
-<h3>Use Case<h3>
-
-<p>Title: Users makes commit subject to existing SPDX data of project
-Primary Actor: Users
-Goal in Context: To indicate the plugin has received the POM files to be sent to Maven
-Preconditions:
-The POM files must be XML files
-Plugin has received the Pom files
-Stakeholders and Interests:
-1. User:
-To know the dependencies that the POM files contain
-2. Plugin:
-To Host the POM files to be sent to Maven
-3. Maven:
-To parse the POM files for dependencies
-
-DoSOCS To Generate a report To place the package in SPDX database while keeping the dependency hierarchies Main Success Scenario: Users received back at least one dependency from Maven scanning Failed End Condition: Maven return no dependencies while the package contains dependencies.
-Trigger:
-Commit of code to an upstream POM
-Notes:<p>
 
 <h3>Data Flow Diagram<h3>
 <img src = "https://cloud.githubusercontent.com/assets/16999040/13802468/413ed47e-eb0a-11e5-9b46-60d9177057b9.png"></img>
+
+<h3>Use Cases</h3>
+<table border="1" style="width:100%">
+  <tr>
+    <td>Use Case Name:</td>
+    <td>Dependency Request</td> 
+  </tr>
+  <tr>
+    <td>Primary Actor:</td>
+    <td>User</td> 
+  </tr>
+  <tr>
+    <td>Stakeholders:</td>
+    <td>User, Plugin, Maven, Temp File</td> 
+  </tr>
+  <tr>
+    <td>Precondition</td>
+    <td>User must have POM files to submit to plugin</td> 
+  </tr>
+  <tr>
+    <td>Minimal Guarantees:</td>
+    <td>POM file sent to plugin </td> 
+  </tr>
+  <tr>
+    <td>Success Guarantees:</td>
+    <td>Maven Central sends POM dependency information to temp folder to store in tree</td> 
+  </tr>
+  <tr>
+    <td>Trigger:</td>
+    <td>POM files are sent to Maven Central</td> 
+  </tr>
+  <tr>
+    <td>Main Success Scenario:</td>
+    <td>Maven sends POM dependency information to temp folder and is store in a tree by Prereq_Of</td> 
+  </tr>
+</table>
+
 <h3> SPDX Scheme </3>
 <img src = "https://cloud.githubusercontent.com/assets/16908431/13798237/3d7990c2-eae2-11e5-8b4a-361832e60f8e.PNG"></img>
