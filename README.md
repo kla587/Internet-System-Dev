@@ -74,5 +74,40 @@
   </tr>
 </table>
 
+<table border="1" style="width:100%">
+  <tr>
+    <td>Use Case Name:</td>
+    <td>License Request</td> 
+  </tr>
+  <tr>
+    <td>Primary Actor:</td>
+    <td>Plugin</td> 
+  </tr>
+  <tr>
+    <td>Stakeholders:</td>
+    <td>User, Plugin, DoSOCS, Temp File</td> 
+  </tr>
+  <tr>
+    <td>Precondition</td>
+    <td>Dependency information stored in temp file</td> 
+  </tr>
+  <tr>
+    <td>Minimal Guarantees:</td>
+    <td>Request for license scan sent to DoSOCS</td> 
+  </tr>
+  <tr>
+    <td>Success Guarantees:</td>
+    <td>DoSOCS will scan jar files for license information stored in SPDX Database.</td> 
+  </tr>
+  <tr>
+    <td>Trigger:</td>
+    <td>Request for license scan sent to DoSOCS from plugin</td> 
+  </tr>
+  <tr>
+    <td>Main Success Scenario:</td>
+    <td>DoSOCS will check to see if jar files have been scanned and only scan those that have not been. License information stored in SPDX Database. DoSOCS sends the scanned information back to the plug in for dependency tree report</td> 
+  </tr>
+</table>
+
 <h3> SPDX Scheme </3>
 <img src = "https://cloud.githubusercontent.com/assets/16908431/13798237/3d7990c2-eae2-11e5-8b4a-361832e60f8e.PNG"></img>
