@@ -30,7 +30,7 @@
   </tr>
   <tr>
     <td width="25%">Main Success Scenario:</td>
-    <td width="75%">Maven sends POM dependency information to temp folder and is store in a tree by Prereq_Of</td> 
+    <td width="75%">Maven sends POM dependency information to temp folder and is store in a tree by Prereq_For</td> 
   </tr>
 </table>
 
@@ -41,7 +41,7 @@
   </tr>
   <tr>
     <td width="25%">Primary Actor:</td>
-    <td width="75%">Plugin</td> 
+    <td width="75%">User, Plugin</td> 
   </tr>
   <tr>
     <td width="25%">Stakeholders:</td>
