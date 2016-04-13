@@ -24,6 +24,8 @@
  <h3>SYSTEM DEPENDENCIES</h3>
  <h6>DoSOCSV2:</h6>
    <ul><p>Install Instructions:  Follow the instruction to install DoSOCSV2 from this website              https://github.com/DoSOCSv2/DoSOCSv2</p></ul>
+   <ul> https://github.com/sschuberth/dosocs2 </ul>
+   
  <h6>Maven 3.0.5:</h6>
    <ul><p>Install Instructions: Follow the instructions to install Maven. https://maven.apache.org/docs/3.0.5/release-notes.html</p></ul>
   
