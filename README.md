@@ -12,8 +12,8 @@
 <h3>SYSTEM ENVIRONMENT</h3>
  <h6>Ubuntu 14.04</h6>
   <ul><p>http://www.ubuntu.com/download/desktop </p></ul>
- <h6>Python </h6>
-    <ul><p>site</p></ul>
+ <h6>Python 2.7.x</h6>
+    <ul><p>https://www.python.org/downloads/</p></ul>
  <h6>Perl 2.7.6</h6>
     <ul><p>http://askubuntu.com/questions/119700/how-do-i-update-install-perl</p></ul>
     
