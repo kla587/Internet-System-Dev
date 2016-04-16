@@ -81,7 +81,7 @@ Then change the `connection_uri` variable in your `dosocs2.conf`:
     connection_uri = postgresql://spdx:spdx@localhost:5432/spdx
 
 
-    <h4>Step 4 - Database setup </h4>
+<h4>Step 4 - Database setup </h4>
 
 Finally, to create all necessary tables and views in the database:
 
@@ -142,10 +142,12 @@ and how to use it.
    <ul><p>Install Instructions: Follow the instructions to install Maven. https://maven.apache.org/docs/3.0.5/release-notes.html</p></ul>
    
    <h5> Run command:</h5>
-    sudo apt-get install maven
+    
+    <p>sudo apt-get install maven</p>
    
    <h5>Check mavens version by running:</h5>
-     mvn -version
+   
+    <p> mvn -version</p>
     
    <p>It will show something like:
 
