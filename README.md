@@ -20,8 +20,8 @@
   <ul><p>http://www.ubuntu.com/download/desktop </p></ul>
  <h6>Python 2.7.6</h6>
     <ul><p>https://www.python.org/download/releases/2.7.6/</p></ul>
- 
- <h3>SYSTEM DEPENDENCIES</h3>
+ <h3>Install Notes</h3>
+ <p>Run the same nomos install script if you don't have nomos installed. Do a pip install on a cloned version of this project not the tarball release from dosocs.</p>
  <h6>DoSOCSV2:</h6>
    <ul><p>Install Instructions:  Follow the instruction to install DoSOCSV2 from this website              https://github.com/DoSOCSv2/DoSOCSv2</p></ul>
    <ul> https://github.com/sschuberth/dosocs2 </ul>
