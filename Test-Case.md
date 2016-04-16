@@ -8,8 +8,15 @@
   </tr>
   <tr>
     <td>Test 1</td>
-    <td>initi database</td>		
-    <td>show what in the database</td>
-    <td> print result</td>
+    <td>Initial database</td>		
+    <td>Show what in the database</td>
+    <td> Print result</td>
+  </tr>
+  
+  <tr>
+    <td>Test 2</td>
+    <td>Generate identity </td>		
+    <td>Specify package</td>
+    <td> Track any package</td>
   </tr>
 </table>
