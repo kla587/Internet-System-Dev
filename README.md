@@ -20,7 +20,7 @@
  <h3>Install Notes</h3>
  <p>These are the install notes for installing system envrionment to run the plugin.</p>
  <h6>DoSOCSV2:</h6>
-   <ul><p>Install Instructions:  Follow the instruction to install out DoSOCSV2 branch               https://github.com/Ayy-ay-oos/DoSOCSv2</p></ul>
+   <ul><p>Install Instructions:  Follow the instruction to install our DoSOCSV2 branch               https://github.com/Ayy-ay-oos/DoSOCSv2</p></ul>
   <p>Download Dosocs branch Zip file and install in Documents folder</p>
   
   <h6>Configuration</h6>
