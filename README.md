@@ -5,16 +5,10 @@
 
 <p>The feature works by performing a oneshot scan on the artifacts. It then creates a temporary directory in the currecnt folder, it will then copy all the transitive dependencies from the original pom.xml into the temp directory. When this is accomplished dosocs then creates documents for all the dependencies in the temp folder. It also generates external document references to refer to the project artifacts document and various metadata which are needed to render dependency relationship information.  </p> 
 
-<h5>Point and Click Process:</h5>
-<p>Our system currently works in pieces to achieve our goal of scanning POM files and storing them and license information into a database that can be queried. </p>
+<p>Referances: to https://docs.python.org/2/tutorial/inputoutput.html</p>
+<p>http://perldoc.perl.org/functions/exec.html</p>
+<p>http://perldoc.perl.org/</p>
 
-<p>We begin by using the code from our shell script, plug.sh, to send a POM file to maven central. Once POM file has been parsed by Maven, it stores a dependency tree in its local default repository.  Maven then outputs a dependency tree into a text file. We are in the process of moving the jar files from the local Maven repo to a temporary folder. We are exploring two different avenues to parse the local repo for the jar files. The first uses a regex to match jar files and save them into a new temp folder. The other uses a Maven plugin, called Assembly. We will then have DoSOCS scan the temp folder; currently it is scanning the local Maven repo. We are working to create a project table in the DoSOCS database to house the dependency tree.</p>
-
-<p>At this point the dependency information will be stored in the DoSOCS database using the Prereq_For key. We have not started storing this information in the database at this time. We are working to convert perl code to python to run the parse. The parsing code is barrowed from a perl project that Mikayla Newton wrote for another class. </p>
-
-<p>Also referring to https://docs.python.org/2/tutorial/inputoutput.html for how to read and write in python.</p>
-
-  
 <h3>SYSTEM ENVIRONMENT</h3>
  <h6>Ubuntu 14.04</h6>
   <ul><p>http://www.ubuntu.com/download/desktop </p></ul>
