@@ -23,9 +23,9 @@
    <ul><p>Install Instructions:  Follow the instruction to install out DoSOCSV2 branch               https://github.com/Ayy-ay-oos/DoSOCSv2</p></ul>
   <p>Download Dosocs branch Zip file and install in Documents folder</p>
   
-  <h7>Configuration</h7>
+  <h6>Configuration</h6>
   
-  ### Step 1 - Download and install
+  Step 1 - Download and install
 
 [Grab the source tarball for the latest release](https://github.com/ttgurney/dosocs2/releases)
 and use `pip` to install it as a package. If you are not inside a virtualenv
@@ -36,7 +36,7 @@ the latest release version number.
     $ pip install ./dosocs2-0.x.x
 
 
-### Step 2 - Change the default configuration
+  Step 2 - Change the default configuration
 
 Not required, but strongly recommended, is to generate an initial config
 file:
@@ -56,7 +56,7 @@ Likewise for any of the other supported scanners you want to use
 (see [doc/scanners.md](doc/scanners.md))
 
 
-### Step 3 (Optional) - Add PostgreSQL configuration
+   Step 3 (Optional) - Add PostgreSQL configuration
 
 Follow this step if you want to use PostgreSQL instead of SQLite for the
 SPDX database.
@@ -80,7 +80,7 @@ Then change the `connection_uri` variable in your `dosocs2.conf`:
     connection_uri = postgresql://spdx:spdx@localhost:5432/spdx
 
 
-### Step 4 - Database setup
+   Step 4 - Database setup
 
 Finally, to create all necessary tables and views in the database:
 
