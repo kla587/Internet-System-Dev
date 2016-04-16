@@ -143,11 +143,11 @@ and how to use it.
    
    <h5> Run command:</h5>
     
-    <p>sudo apt-get install maven</p>
+     sudo apt-get install maven
    
    <h5>Check mavens version by running:</h5>
    
-    <p> mvn -version</p>
+     mvn -version
     
    <p>It will show something like:
 
