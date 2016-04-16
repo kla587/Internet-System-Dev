@@ -26,12 +26,12 @@
   <h6>Configuration</h6>
   
   <h4>Step 1 - Download and install</h4>
-  <p>Based on configuration from https://github.com/DoSOCSv2/DoSOCSv2<h3>
+  <p>Based on configuration from https://github.com/DoSOCSv2/DoSOCSv2</p>
 
-[Grab the source tarball for the latest release](https://github.com/ttgurney/dosocs2/releases)
+<p>Grab the source tarball for the latest release](https://github.com/ttgurney/dosocs2/releases)
 and use `pip` to install it as a package. If you are not inside a virtualenv
 you may have to run `pip` as root (not recommended!). Replace `0.x.x` with
-the latest release version number.
+the latest release version number.</p>
 
     $ tar xf 0.x.x.tar.gz
     $ pip install ./dosocs2-0.x.x
@@ -160,10 +160,10 @@ and how to use it.
 
 <h3>Install and Configure Perl</h3>
 
-<p> Sudo apt-get update
+          Sudo apt-get update
 	  Sudo apt-get upgrade
 	  Sudo Apt-get install –y perl
-	  Sudo apt-get install lib-find-file-rule-perl</p>
+	  Sudo apt-get install lib-find-file-rule-perl
 
 <p>Create a folder named perl in your documents folder. Here is where you will run the plugin and where the dependency tree information will be stored.  Place the pom file that is to be scanned into this folder and name is pom.xml. It is important that theses are in the correct place for the plugin to run.
 
