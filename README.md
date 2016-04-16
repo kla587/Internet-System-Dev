@@ -142,10 +142,10 @@ and how to use it.
    <ul><p>Install Instructions: Follow the instructions to install Maven. https://maven.apache.org/docs/3.0.5/release-notes.html</p></ul>
    
    <h5> Run command:</h5>
-   	sudo apt-get install maven
+    sudo apt-get install maven
    
    <h5>Check mavens version by running:</h5>
-   	mvn -version
+     mvn -version
     
    <p>It will show something like:
 
