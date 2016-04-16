@@ -17,6 +17,6 @@
     <td>Test 2</td>
     <td>Generate identity </td>		
     <td>Specify package</td>
-    <td> Track any package</td>
+    <td> Track any package by it identity</td>
   </tr>
 </table>
