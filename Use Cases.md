@@ -6,15 +6,15 @@
   </tr>
   <tr>
     <td width="25%">Primary Actor:</td>
-    <td width="75%">User</td> 
+    <td width="75%">User/Developer</td> 
   </tr>
   <tr>
     <td width="25%">Stakeholders:</td>
-    <td width="75%">User, Plugin, Maven, Temp File</td> 
+    <td width="75%">User/Developer, Plugin, Maven, Temp File</td> 
   </tr>
   <tr>
     <td width="25%">Precondition</td>
-    <td width="75%">User must have POM files to submit to plugin</td> 
+    <td width="75%">User must have POM file and prebuilt artifact, valid connections to dosocs db and maven central</td> 
   </tr>
   <tr>
     <td width="25%">Minimal Guarantees:</td>
