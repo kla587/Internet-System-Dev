@@ -142,10 +142,10 @@ and how to use it.
    <ul><p>Install Instructions: Follow the instructions to install Maven. https://maven.apache.org/docs/3.0.5/release-notes.html</p></ul>
    
    <h5> Run command:</h5>
-   <p>sudo apt-get install maven</p>
+   	sudo apt-get install maven
    
    <h5>Check mavens version by running:</h5>
-   <p>mvn -version</p>
+   	mvn -version
     
    <p>It will show something like:
 
@@ -160,7 +160,7 @@ and how to use it.
 
 <h3>Install and Configure Perl</h3>
 
-        Sudo apt-get update
+      Sudo apt-get update
 	  Sudo apt-get upgrade
 	  Sudo Apt-get install –y perl
 	  Sudo apt-get install lib-find-file-rule-perl
