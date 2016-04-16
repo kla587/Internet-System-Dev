@@ -90,7 +90,6 @@ You only need to do this once. **This command will drop all
 existing tables from your SPDX database, so be careful!**
 
 Usage
------
 
 The simplest use case is scanning a package, generating a
 document, and printing an SPDX document in one shot:
@@ -138,14 +137,15 @@ Use `dosocs2 --help` to get the full help text. The `doc` directory
 here also provides more detailed information about how `dosocs2` works
 and how to use it.
    
- <h6>Maven 3.0.5:</h6>
+ <h5>Maven 3.0.5:</h5>
    <ul><p>Install Instructions: Follow the instructions to install Maven. https://maven.apache.org/docs/3.0.5/release-notes.html</p></ul>
    
    <p> Run command:</p>
-   <p>sudo apt-get install maven</p>
+   sudo apt-get install maven
    
    <p>Check mavens version by running:</p>
-   <p> mvn -version</p>
+    mvn -version
+    
    <p>It will show something like:
 
       Apache Maven 3.0.5
@@ -157,7 +157,7 @@ and how to use it.
       
   <p> Verify Maven repo location is /urs/share/maven-repo</p>
 
-<h7>Install and Configure Perl</h7>
+<h5>Install and Configure Perl</h5>
 
 <p> Sudo apt-get update
 	  Sudo apt-get upgrade
@@ -168,7 +168,7 @@ and how to use it.
 
 After running, you will see a file named mvn.txt that stored the dependency tree before it is scanned and put into DoSocs.</p>
 
-<h7>Running plugin</7>
+<h5>Running plugin</h5>
 <p>Download souce from source folder called plugin.pl</p>
 <p>Run plugin with line: Perl plugin.pl</p>
 
