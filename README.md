@@ -1,9 +1,9 @@
 <h2>README: Welcome to our GITHUB!</h2>
 
 <h3>SYSTEM DESCRIPTION</h3> 
-  <p>Our plugin receives POM files from the user and sends them to Maven Central to check for dependencies. The returned POM and .jar files are sent to DoSOCS to be scanned for license information and returns SPDX documents. This process repeats until all dependencies are found or until we reach 3 levels in.</p>
+  <p>Our system uses a forked version of DoSOCsv2 which contains a feature that gives dosocs a pom.xml and its artifacts and source files and relays dependency information in the corresponding table</p>
 
-<p>The plugin will store the scanned licensing and  information into a temp folder. It will check the SPDX database before scanning to determine if the files have already been scanned by using SHA256 caching. The dependencies returned from Maven Central are stored in a separate database reflecting their relationships</p> 
+<p>The feature works by performing a oneshot scan on the artifacts. It then creates a temporary directory in the currecnt folder, it will then copy all the transitive dependencies from the original pom.xml into the temp directory. When this is accomplished dosocs then creates documents for all the dependencies in the temp folder. It also generates external document references to refer to the project artifacts document and various metadata which are needed to render dependency relationship information.  </p> 
 
 <h5>Point and Click Process:</h5>
 <p>Our system currently works in pieces to achieve our goal of scanning POM files and storing them and license information into a database that can be queried. </p>
