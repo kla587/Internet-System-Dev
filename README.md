@@ -167,9 +167,12 @@ and how to use it.
 	  Sudo Apt-get install –y perl
 	  Sudo apt-get install lib-find-file-rule-perl
 
-	Create a folder named perl in your documents folder. Here is where you will run the plugin and where the dependency tree information will be stored.  Place the pom file, that is to be scanned, into this folder and name it pom.xml. It is important that theses are in the correct place for the plugin to run.
+	Create a folder named perl in your documents folder. Here is where you will run the plugin and where 
+	the dependency tree information will be stored.  Place the pom file, that is to be scanned, into this 
+	folder and name it pom.xml. It is important that theses are in the correct place for the plugin to run.
 
-	After running, you will see a file named mvn.txt that stored the dependency tree before it is scanned and put into DoSocs.
+	After running, you will see a file named mvn.txt that stored the dependency tree before it is scanned
+	and put into DoSocs.
 
 <h5>Running plugin</h5>
 	Download souce from source folder called plugin.pl
