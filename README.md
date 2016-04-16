@@ -52,4 +52,4 @@ No additional restrictions — You may not apply legal terms or technological me
 <img src = "https://cloud.githubusercontent.com/assets/16999040/13827518/e8709da6-eb8a-11e5-9101-9771e458876d.png"></img>
 
 <h3> SPDX Schema </h3>
-<img src = "https://cloud.githubusercontent.com/assets/16908431/13798237/3d7990c2-eae2-11e5-8b4a-361832e60f8e.PNG"></img>
+<img src = "https://cloud.githubusercontent.com/assets/17053249/14578571/f6b7cd98-0350-11e6-8caa-87aba2807eb0.png"></img>
