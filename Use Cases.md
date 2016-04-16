@@ -10,19 +10,15 @@
   </tr>
   <tr>
     <td width="25%">Stakeholders:</td>
-    <td width="75%">User/Developer, Plugin, Maven, Temp File</td> 
+    <td width="75%">User/Developer, Legal, Community</td> 
   </tr>
   <tr>
     <td width="25%">Precondition</td>
-    <td width="75%">User must have POM file and prebuilt artifact, valid connections to dosocs db and maven central</td> 
+    <td width="75%">User must have valid POM file, valid connections to Maven central</td> 
   </tr>
   <tr>
     <td width="25%">Minimal Guarantees:</td>
-    <td width="75%">POM file sent to plugin </td> 
-  </tr>
-  <tr>
-    <td width="25%">Success Guarantees:</td>
-    <td width="75%">Maven Central sends POM dependency information to temp folder to store in tree</td> 
+    <td width="75%">Maven receives POM and generates artifact ID </td> 
   </tr>
   <tr>
     <td width="25%">Trigger:</td>
@@ -30,7 +26,7 @@
   </tr>
   <tr>
     <td width="25%">Main Success Scenario:</td>
-    <td width="75%">Maven sends POM dependency information to temp folder and is store in a tree by Prereq_For</td> 
+    <td width="75%">Dependency relationship information is generated </td> 
   </tr>
 </table>
 
@@ -41,30 +37,26 @@
   </tr>
   <tr>
     <td width="25%">Primary Actor:</td>
-    <td width="75%">User, Plugin</td> 
+    <td width="75%">User/Developer</td> 
   </tr>
   <tr>
     <td width="25%">Stakeholders:</td>
-    <td width="75%">User, Plugin, DoSOCS, Temp File</td> 
+    <td width="75%">User/Developer, Legal, Community</td> 
   </tr>
   <tr>
     <td width="25%">Precondition</td>
-    <td width="75%">Dependency information stored in temp file</td> 
+    <td width="75%">Prebuilt artifact, proper connection to DoSOCs DB, artifact ending in .jar, and dependencies from Maven Central</td> 
   </tr>
   <tr>
     <td width="25%">Minimal Guarantees:</td>
     <td width="75%">Request for license scan sent to DoSOCS</td> 
   </tr>
   <tr>
-    <td width="25%">Success Guarantees:</td>
-    <td width="75%">DoSOCS will scan jar files for license information stored in SPDX Database.</td> 
-  </tr>
-  <tr>
     <td width="25%">Trigger:</td>
-    <td width="75%">Request for license scan sent to DoSOCS from plugin</td> 
+    <td width="75%">pom.xml and artifact</td> 
   </tr>
   <tr>
     <td width="25%">Main Success Scenario:</td>
-    <td width="75%">DoSOCS will check to see if jar files have been scanned and only scan those that have not been. License information stored in SPDX Database. DoSOCS sends the scanned information back to the plug in for dependency tree report</td> 
+    <td width="75%">Dependency relationship information is scanned for licensing, creating a dependency structure within the DoSOCs db </td> 
   </tr>
 </table>
