@@ -25,7 +25,7 @@
   
   <h6>Configuration</h6>
   
-  Step 1 - Download and install
+  <h3>Step 1 - Download and install</h3>
 
 [Grab the source tarball for the latest release](https://github.com/ttgurney/dosocs2/releases)
 and use `pip` to install it as a package. If you are not inside a virtualenv
@@ -36,7 +36,7 @@ the latest release version number.
     $ pip install ./dosocs2-0.x.x
 
 
-  Step 2 - Change the default configuration
+   <h3>Step 2 - Change the default configuration </h3>
 
 Not required, but strongly recommended, is to generate an initial config
 file:
@@ -56,7 +56,7 @@ Likewise for any of the other supported scanners you want to use
 (see [doc/scanners.md](doc/scanners.md))
 
 
-   Step 3 (Optional) - Add PostgreSQL configuration
+   <h3> Step 3 (Optional) - Add PostgreSQL configuration </h3>
 
 Follow this step if you want to use PostgreSQL instead of SQLite for the
 SPDX database.
@@ -80,7 +80,7 @@ Then change the `connection_uri` variable in your `dosocs2.conf`:
     connection_uri = postgresql://spdx:spdx@localhost:5432/spdx
 
 
-   Step 4 - Database setup
+    <h3>Step 4 - Database setup </h3>
 
 Finally, to create all necessary tables and views in the database:
 
@@ -140,11 +140,11 @@ and how to use it.
  <h5>Maven 3.0.5:</h5>
    <ul><p>Install Instructions: Follow the instructions to install Maven. https://maven.apache.org/docs/3.0.5/release-notes.html</p></ul>
    
-   <p> Run command:</p>
-   sudo apt-get install maven
+   <h3> Run command:</h3>
+   <p>sudo apt-get install maven</p>
    
-   <p>Check mavens version by running:</p>
-    mvn -version
+   <h3>Check mavens version by running:</h3>
+   <p>mvn -version</p>
     
    <p>It will show something like:
 
