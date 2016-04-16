@@ -3,7 +3,7 @@
 <h3>SYSTEM DESCRIPTION</h3> 
   <p>Our system uses a forked version of DoSOCsv2 which contains a feature that gives dosocs a pom.xml and its artifacts and source files and relays dependency information in the corresponding table</p>
 
-<p>The feature works by performing a oneshot scan on the artifacts. It then creates a temporary directory in the currecnt folder, it will then copy all the transitive dependencies from the original pom.xml into the temp directory. When this is accomplished dosocs then creates documents for all the dependencies in the temp folder. It also generates external document references to refer to the project artifacts document and various metadata which are needed to render dependency relationship information.  </p> 
+<p>The feature works by performing a oneshot scan on the artifacts. It then creates a temporary directory in the current folder, it will then copy all the transitive dependencies from the original pom.xml into the temp directory. When this is accomplished dosocs then creates documents for all the dependencies in the temp folder. It also generates external document references to refer to the project artifacts document and various metadata which are needed to render dependency relationship information.  </p> 
 
 <p>Referances: to https://docs.python.org/2/tutorial/inputoutput.html</p>
 <p>http://perldoc.perl.org/functions/exec.html</p>
