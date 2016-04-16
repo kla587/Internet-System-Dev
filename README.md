@@ -25,7 +25,8 @@
   
   <h6>Configuration</h6>
   
-  <h3>Step 1 - Download and install</h3>
+  <h4>Step 1 - Download and install</h4>
+  <p>Based on configuration from https://github.com/DoSOCSv2/DoSOCSv2<h3>
 
 [Grab the source tarball for the latest release](https://github.com/ttgurney/dosocs2/releases)
 and use `pip` to install it as a package. If you are not inside a virtualenv
@@ -36,7 +37,7 @@ the latest release version number.
     $ pip install ./dosocs2-0.x.x
 
 
-   <h3>Step 2 - Change the default configuration </h3>
+   <h4>Step 2 - Change the default configuration </h4>
 
 Not required, but strongly recommended, is to generate an initial config
 file:
@@ -56,7 +57,7 @@ Likewise for any of the other supported scanners you want to use
 (see [doc/scanners.md](doc/scanners.md))
 
 
-   <h3> Step 3 (Optional) - Add PostgreSQL configuration </h3>
+   <h4> Step 3 (Optional) - Add PostgreSQL configuration </h4>
 
 Follow this step if you want to use PostgreSQL instead of SQLite for the
 SPDX database.
@@ -80,7 +81,7 @@ Then change the `connection_uri` variable in your `dosocs2.conf`:
     connection_uri = postgresql://spdx:spdx@localhost:5432/spdx
 
 
-    <h3>Step 4 - Database setup </h3>
+    <h4>Step 4 - Database setup </h4>
 
 Finally, to create all necessary tables and views in the database:
 
@@ -137,13 +138,13 @@ Use `dosocs2 --help` to get the full help text. The `doc` directory
 here also provides more detailed information about how `dosocs2` works
 and how to use it.
    
- <h5>Maven 3.0.5:</h5>
+ <h3>Maven 3.0.5:</h3>
    <ul><p>Install Instructions: Follow the instructions to install Maven. https://maven.apache.org/docs/3.0.5/release-notes.html</p></ul>
    
-   <h3> Run command:</h3>
+   <h5> Run command:</h5>
    <p>sudo apt-get install maven</p>
    
-   <h3>Check mavens version by running:</h3>
+   <h5>Check mavens version by running:</h5>
    <p>mvn -version</p>
     
    <p>It will show something like:
@@ -157,7 +158,7 @@ and how to use it.
       
   <p> Verify Maven repo location is /urs/share/maven-repo</p>
 
-<h5>Install and Configure Perl</h5>
+<h3>Install and Configure Perl</h3>
 
 <p> Sudo apt-get update
 	  Sudo apt-get upgrade
