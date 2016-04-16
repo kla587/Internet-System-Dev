@@ -90,7 +90,7 @@ Finally, to create all necessary tables and views in the database:
 You only need to do this once. **This command will drop all
 existing tables from your SPDX database, so be careful!**
 
-Usage
+<h5>Usage</h5>
 
 The simplest use case is scanning a package, generating a
 document, and printing an SPDX document in one shot:
@@ -160,7 +160,7 @@ and how to use it.
 
 <h3>Install and Configure Perl</h3>
 
-          Sudo apt-get update
+        Sudo apt-get update
 	  Sudo apt-get upgrade
 	  Sudo Apt-get install –y perl
 	  Sudo apt-get install lib-find-file-rule-perl
@@ -170,8 +170,8 @@ and how to use it.
 After running, you will see a file named mvn.txt that stored the dependency tree before it is scanned and put into DoSocs.</p>
 
 <h5>Running plugin</h5>
-<p>Download souce from source folder called plugin.pl</p>
-<p>Run plugin with line: Perl plugin.pl</p>
+	Download souce from source folder called plugin.pl
+	Run plugin with line: Perl plugin.pl
 
 <h3>COPYRIGHT</h3>
   <ul><h6>Donatien Adjadohoun</h6></ul>
