@@ -158,7 +158,7 @@ and how to use it.
       Default locale: en_US, platform encoding: UTF-8
       OS name: "linux", version: "3.13.0-24-generic", arch: "amd64", family: "unix"</p>
       
-  <p> Verify Maven repo location is /urs/share/maven-repo</p>
+      Verify Maven repo location is /urs/share/maven-repo
 
 <h3>Install and Configure Perl</h3>
 
@@ -167,9 +167,9 @@ and how to use it.
 	  Sudo Apt-get install –y perl
 	  Sudo apt-get install lib-find-file-rule-perl
 
-<p>Create a folder named perl in your documents folder. Here is where you will run the plugin and where the dependency tree information will be stored.  Place the pom file that is to be scanned into this folder and name is pom.xml. It is important that theses are in the correct place for the plugin to run.
+	Create a folder named perl in your documents folder. Here is where you will run the plugin and where the dependency tree information will be stored.  Place the pom file, that is to be scanned, into this folder and name it pom.xml. It is important that theses are in the correct place for the plugin to run.
 
-After running, you will see a file named mvn.txt that stored the dependency tree before it is scanned and put into DoSocs.</p>
+	After running, you will see a file named mvn.txt that stored the dependency tree before it is scanned and put into DoSocs.
 
 <h5>Running plugin</h5>
 	Download souce from source folder called plugin.pl
