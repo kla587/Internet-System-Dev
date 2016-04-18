@@ -163,9 +163,11 @@ and how to use it.
 <h3>Install and Configure Perl</h3>
 
       Sudo apt-get update
-	  Sudo apt-get upgrade
-	  Sudo Apt-get install –y perl
-	  Sudo apt-get install lib-find-file-rule-perl
+	  sudo apt-get upgrade
+	  sudo Apt-get install –y perl
+	  sudo apt-get install libfile-find-rule-perl
+	  
+	  (Sudo apt-get install lib-find-file-rule-perl) old do not use
 
 	Create a folder named perl in your documents folder. Here is where you will run the plugin and where 
 	the dependency tree information will be stored.  Place the pom file, that is to be scanned, into this 
