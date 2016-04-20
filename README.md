@@ -166,6 +166,8 @@ and how to use it.
 	  sudo apt-get upgrade
 	  sudo Apt-get install –y perl
 	  sudo apt-get install libfile-find-rule-perl
+	  cpan Modern::Perl
+	 
 
 	Create a folder named perl in your documents folder. Here is where you will run the plugin and where 
 	the dependency tree information will be stored.  Place the pom file, that is to be scanned, into this 
