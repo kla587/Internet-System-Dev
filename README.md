@@ -187,7 +187,7 @@ and how to use it.
   <ul><h6>Mikayla Newton</h6></ul>
   
 <h3>SOURCE LICENSE</h3>
-   <h6>GPLv2:</h6> <p>The licensed under GPLv2/p>
+   <h6>GPLv2:</h6> <p>The licensed under GPLv2</p>
 
   <ul>https://spdx.org/licenses/GPL-2.0.html</ul>
   <h6>CC:</h6> <p> You are free to share, copy and redistribute the material in any medium or format. Adapt, remix, transform, and build upon the material for any purpose, even commercially.<p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
