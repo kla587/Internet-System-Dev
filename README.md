@@ -187,8 +187,9 @@ and how to use it.
   <ul><h6>Mikayla Newton</h6></ul>
   
 <h3>SOURCE LICENSE</h3>
-   <h6>GPLv2:</h6> <p>The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software           Foundation. A copy of the license is included with every copy of WordPress</p>
-  <ul>https://wordpress.org/about/license/</ul>
+   <h6>GPLv2:</h6> <p>The licensed under GPLv2/p>
+
+  <ul>https://spdx.org/licenses/GPL-2.0.html</ul>
   <h6>CC:</h6> <p> You are free to share, copy and redistribute the material in any medium or format. Adapt, remix, transform, and build upon the material for any purpose, even commercially.<p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
 <h3>DOCUMENT LICENSE</h3>
