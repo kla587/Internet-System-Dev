@@ -19,7 +19,7 @@ while (<FH>){
 close FH or die;
 
 
-#print .jar files
+#send jars for dependencies
 foreach my $i (@lines){
         my $x =$depnd.$i;
 
